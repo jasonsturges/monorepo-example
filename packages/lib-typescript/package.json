@@ -12,6 +12,8 @@
   ],
   "scripts": {
     "start": "rollup -c -w",
-    "build": "rollup -c"
+    "prebuild": "npm run clean",
+    "build": "rollup -c && api-extractor run",
+    "clean": "rimraf ./dist ./docs"
   }
 }
