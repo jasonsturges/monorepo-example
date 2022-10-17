@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/lib-javascript",
+  "version": "1.0.0",
+  "description": "Monorepo example JavaScript package",
+  "license": "ISC",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "browser": "dist/browser/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c"
+  }
+}
