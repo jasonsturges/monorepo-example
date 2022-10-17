@@ -1,5 +1,5 @@
 {
-  "name": "app-typescript",
+  "name": "@monorepo/app-typescript",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
