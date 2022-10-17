@@ -12,6 +12,12 @@
     "start:lib-typescript": "npm start -w packages/lib-typescript",
     "start:app-javascript": "npm start -w apps/app-javascript",
     "start:app-typescript": "npm start -w apps/app-typescript",
+    "build:apps": "npm run build -w apps",
+    "build:packages": "npm run build -w packages",
+    "build:lib-javascript": "npm run build -w packages/lib-javascript",
+    "build:lib-typescript": "npm run build -w packages/lib-typescript",
+    "build:app-javascript": "npm run build -w apps/app-javascript",
+    "build:app-typescript": "npm run build -w apps/app-typescript",
     "lerna:start": "lerna run start --parallel",
     "lerna:build": "lerna run build"
   },
@@ -20,8 +26,10 @@
     "@rollup/plugin-commonjs": "^21.0.2",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "@rollup/plugin-typescript": "^8.3.1",
+    "@types/estree": "^1.0.0",
     "lerna": "^6.0.1",
     "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
     "rollup": "^2.70.1",
     "typescript": "^4.8.4"
   }
