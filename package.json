@@ -8,6 +8,7 @@
   "scripts": {
   },
   "devDependencies": {
+    "lerna": "^6.0.1",
     "prettier": "^2.7.1",
     "typescript": "^4.8.4"
   }
