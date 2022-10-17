@@ -1,0 +1,17 @@
+{
+  "name": "@monorepo/lib-typescript",
+  "version": "1.0.0",
+  "description": "Monorepo example TypeScript package",
+  "license": "ISC",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "browser": "dist/browser/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c"
+  }
+}
