@@ -19,7 +19,8 @@
     "build:app-javascript": "npm run build -w apps/app-javascript",
     "build:app-typescript": "npm run build -w apps/app-typescript",
     "lerna:start": "lerna run start --parallel",
-    "lerna:build": "lerna run build"
+    "lerna:build": "lerna run build",
+    "learn:clean": "lerna run clean"
   },
   "devDependencies": {
     "@microsoft/api-extractor": "^7.19.5",
